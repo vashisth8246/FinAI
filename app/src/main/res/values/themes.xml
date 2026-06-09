@@ -1,0 +1,68 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme with custom color roles -->
+    <style name="Base.Theme.FinAI" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/md_primary</item>
+        <item name="colorOnPrimary">@color/md_onPrimary</item>
+        <item name="colorSecondary">@color/md_secondary</item>
+        <item name="colorOnSecondary">@color/md_onSecondary</item>
+        <item name="colorTertiary">@color/md_tertiary</item>
+        <item name="colorOnTertiary">@color/md_onTertiary</item>
+        <item name="android:statusBarColor">@color/bg_dark</item>
+        <item name="android:navigationBarColor">@color/bg_dark</item>
+        <item name="android:windowBackground">@color/bg_dark</item>
+        <item name="colorSurface">@color/md_surface</item>
+        <item name="colorOnSurface">@color/md_onSurface</item>
+        <item name="colorSurfaceVariant">@color/md_surfaceVariant</item>
+        <item name="colorOnSurfaceVariant">@color/md_onSurfaceVariant</item>
+
+        <!-- Typography defaults -->
+        <item name="textAppearanceTitleLarge">@style/FinAI.TitleLarge</item>
+        <item name="textAppearanceBodyLarge">@style/FinAI.BodyLarge</item>
+        <item name="textAppearanceBodyMedium">@style/FinAI.BodyMedium</item>
+
+        <item name="materialCardViewStyle">@style/FinAI.Card</item>
+        <item name="bottomNavigationStyle">@style/FinAI.BottomNav</item>
+    </style>
+
+    <style name="Theme.FinAI" parent="Base.Theme.FinAI" />
+
+    <!-- Toolbar menu text color overlay -->
+    <style name="FinAI.ToolbarMenu" parent="ThemeOverlay.Material3.Dark.ActionBar">
+        <item name="actionMenuTextColor">@color/neon_blue</item>
+    </style>
+
+    <style name="FinAI.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/card_dark</item>
+        <item name="cardUseCompatPadding">true</item>
+        <item name="cardElevation">6dp</item>
+        <item name="shapeAppearance">@style/Shape.RoundedXL</item>
+    </style>
+
+    <style name="Shape.RoundedXL" parent="ShapeAppearance.Material3.MediumComponent">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <style name="FinAI.BottomNav" parent="Widget.Material3.BottomNavigationView">
+        <item name="itemIconTint">@color/nav_item_color</item>
+        <item name="itemTextColor">@color/nav_item_color</item>
+        <item name="android:background">@drawable/bg_bottom_nav</item>
+    </style>
+
+    <!-- Typography styles -->
+    <style name="FinAI.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:textColor">@color/md_onSurface</item>
+        <item name="android:letterSpacing">0.02</item>
+    </style>
+
+    <style name="FinAI.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/md_onSurface</item>
+    </style>
+
+    <style name="FinAI.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textColor">@color/md_onSurfaceVariant</item>
+    </style>
+</resources>

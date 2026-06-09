@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <com.google.android.material.switchmaterial.SwitchMaterial
+        android:id="@+id/switchCloud"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enable Cloud Sync (Firebase)"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="8dp"
+        android:text="When enabled, your goals and transactions are synced to your Firebase account. Otherwise, they stay on this device."/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnExportCsv"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Export CSV" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnImportCsv"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Import CSV" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnClearLocal"
+        style="@style/Widget.Material3.Button.OutlinedButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="Clear Local Data" />
+</LinearLayout>

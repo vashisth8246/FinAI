@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="12dp"
+    app:cardBackgroundColor="@color/card_dark"
+    app:cardUseCompatPadding="true"
+    app:shapeAppearance="@style/Shape.RoundedXL">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/title"
+            style="@style/FinAI.TitleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/target"
+            style="@style/FinAI.BodyMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Target: ₹0"/>
+
+        <com.google.android.material.progressindicator.LinearProgressIndicator
+            android:id="@+id/goalProgressBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            app:trackColor="@color/md_surfaceVariant"
+            app:indicatorColor="@color/neon_blue"
+            app:trackThickness="6dp"
+            app:showAnimationBehavior="none"/>
+
+        <TextView
+            android:id="@+id/progress"
+            style="@style/FinAI.BodyMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Progress: 0/0"/>
+
+        <TextView
+            android:id="@+id/status"
+            style="@style/FinAI.BodyMedium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Status: active"/>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

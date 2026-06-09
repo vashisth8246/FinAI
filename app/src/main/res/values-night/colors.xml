@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="bg_dark">#0B0D12</color>
+    <color name="surface_dark">#12151D</color>
+    <color name="card_dark">#151925</color>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core palette: Blade Runner x Notion (dark + neon accents) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <color name="bg_dark">#0B0D12</color>
+    <color name="surface_dark">#12151D</color>
+    <color name="card_dark">#151925</color>
+
+    <color name="neon_blue">#00E5FF</color>
+    <color name="neon_purple">#B388FF</color>
+    <color name="neon_teal">#00FFC6</color>
+
+    <!-- Material color roles -->
+    <color name="md_primary">@color/neon_blue</color>
+    <color name="md_onPrimary">#001318</color>
+    <color name="md_secondary">@color/neon_purple</color>
+    <color name="md_onSecondary">#14001E</color>
+    <color name="md_tertiary">@color/neon_teal</color>
+    <color name="md_onTertiary">#001912</color>
+
+    <color name="md_background">@color/bg_dark</color>
+    <color name="md_onBackground">#E6FFFFFF</color>
+    <color name="md_surface">@color/surface_dark</color>
+    <color name="md_onSurface">#CCFFFFFF</color>
+    <color name="md_surfaceVariant">#1C2130</color>
+    <color name="md_onSurfaceVariant">#A6B0BF</color>
+
+    <!-- Nav selectors use -->
+    <color name="nav_unselected">#8AFFFFFF</color>
+</resources>
